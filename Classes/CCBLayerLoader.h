@@ -2,6 +2,9 @@
 #define __cocos2d_study__CCBLayerLoader__
 
 #include "CCBLayer.h"
+/*
+ CocosBuilderを扱うシーンを読み込むためのクラス
+ */
 class CCBLayerLoader : public CCLayerLoader
 {
 public:

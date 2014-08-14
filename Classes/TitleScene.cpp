@@ -1,5 +1,6 @@
 #include "TitleScene.h"
 #include "HelloWorldScene.h"
+#include "AppPlatform.h"
 USING_NS_CC;
 CCScene* Title::scene()
 {
@@ -18,7 +19,7 @@ bool Title::init()
     CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
     
     // 文字列の表示
-    CCLabelTTF* title = CCLabelTTF::create("これはタイトルです", "arial", 96);
+    CCLabelTTF* title = CCLabelTTF::create("これはタイトルです", "arial", 64);
     title->setPosition(ccp(
         visibleSize.width/2,
         visibleSize.height - title->getContentSize().height));
@@ -28,6 +29,14 @@ bool Title::init()
     CCSprite* logo = CCSprite::create("cocos2dx_logo.png");
     logo->setPosition(ccp(visibleSize.width/2, visibleSize.height/2));
     this->addChild(logo);
+    
+    // レベル3：端末情報の取得
+    // iOSはObjective-C、AndroidはJavaのJniを利用して取得
+    const char* version = AppPlatform::getAppVersion();
+    CCLOG("%s",version);
+    CCLabelTTF* versionLabel = CCLabelTTF::create(version, "arial", 48);
+    versionLabel->setPosition(ccp(visibleSize.width-versionLabel->getContentSize().width/2, versionLabel->getContentSize().height/2));
+    this->addChild(versionLabel);
     
     return true;
 }

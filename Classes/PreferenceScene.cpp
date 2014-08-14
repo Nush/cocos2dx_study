@@ -23,8 +23,7 @@ bool Preference::init()
     
 	pCloseItem->setPosition(ccp(visibleSize.width - pCloseItem->getContentSize().width/2 ,
                                 pCloseItem->getContentSize().height/2));
-    
-    // create menu, it's an autorelease object
+
     CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
     pMenu->setPosition(CCPointZero);
     this->addChild(pMenu, 1);
@@ -40,7 +39,7 @@ bool Preference::init()
     this->addChild(editBox);
     
     
-    // Preferenceからデータを取得して設定
+    // レベル3：Preferenceからデータを取得して設定
     std::string data = CCUserDefault::sharedUserDefault()->getStringForKey("test","No Data");
     CCLabelTTF* dataLabel = CCLabelTTF::create(data.data(), "arial", 48);
     dataLabel->setPosition(ccp(visibleSize.width/2, editBox->getPositionY()+dataLabel->getContentSize().height));
@@ -53,7 +52,7 @@ void Preference::editBoxEditingDidBegan(cocos2d::extension::CCEditBox *editBox)
 }
 void Preference::editBoxEditingDidEnd(cocos2d::extension::CCEditBox *editBox)
 {
-    // EditBoxのテキストを保存
+    // レベル3：EditBoxのテキストを保存
     CCUserDefault* user = CCUserDefault::sharedUserDefault();
     user->setStringForKey("test", editBox->getText());
     user->flush();

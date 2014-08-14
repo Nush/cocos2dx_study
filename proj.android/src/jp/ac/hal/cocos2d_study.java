@@ -26,12 +26,20 @@ package jp.ac.hal;
 import org.cocos2dx.lib.Cocos2dxActivity;
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Build;
 import android.os.Bundle;
 
 public class cocos2d_study extends Cocos2dxActivity{
-	
+	public static String appVersion = "";
+	public static String getAppVersionInJava(){
+		return appVersion;
+	}
     protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);	
+		appVersion = "Android API : "+ String.valueOf(Build.VERSION.SDK_INT);
 	}
 
     public Cocos2dxGLSurfaceView onCreateView() {

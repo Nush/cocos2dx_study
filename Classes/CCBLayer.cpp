@@ -38,9 +38,13 @@ bool CCBLayer::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget, const char 
     CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "TapText", CCLabelTTF*, m_tapText);
     return NULL;
 }
-
+/*
+ 現在時刻を毎フレームアップデートします
+ */
 void CCBLayer::updateTime()
 {
+    // レベル2：現在時刻の表示
+    // グリニッジ標準時を取得し、構造体tmを使って表示させる
     time_t greenwich = time(NULL);
     struct tm *now = localtime(&greenwich);
     CCString* currentTime = CCString::createWithFormat("%d:%d:%d",now->tm_hour,now->tm_min,now->tm_sec);

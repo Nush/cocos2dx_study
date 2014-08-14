@@ -6,7 +6,9 @@
 
 USING_NS_CC;
 USING_NS_CC_EXT;
-
+/*
+ CocosBuildrで作成したシーンを扱うクラス
+ */
 class CCBLayer : public CCLayer, public CCBSelectorResolver,public CCBMemberVariableAssigner
 {
 private:

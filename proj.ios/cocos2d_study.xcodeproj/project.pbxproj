@@ -271,6 +271,7 @@
 		E020DA79199B5D4D0094A97F /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA75199B5D4D0094A97F /* sunny.png */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
+		E0710B1B199CA75A0035CD1E /* AppPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0710B1A199CA75A0035CD1E /* AppPlatform.mm */; };
 		E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */; };
 		E0BB8BD31999FFEA0093F1E7 /* button01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD11999FFEA0093F1E7 /* button01.gif */; };
 		E0BB8BD41999FFEA0093F1E7 /* button02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD21999FFEA0093F1E7 /* button02.gif */; };
@@ -826,6 +827,8 @@
 		E020DA73199B5D4D0094A97F /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainy.png; path = "Published-iOS/rainy.png"; sourceTree = "<group>"; };
 		E020DA74199B5D4D0094A97F /* SceneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneBG.png; path = "Published-iOS/SceneBG.png"; sourceTree = "<group>"; };
 		E020DA75199B5D4D0094A97F /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = "Published-iOS/sunny.png"; sourceTree = "<group>"; };
+		E0710B18199CA6360035CD1E /* AppPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPlatform.h; sourceTree = "<group>"; };
+		E0710B1A199CA75A0035CD1E /* AppPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppPlatform.mm; sourceTree = "<group>"; };
 		E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos2dx_logo.png; sourceTree = "<group>"; };
 		E0BB8BD11999FFEA0093F1E7 /* button01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button01.gif; sourceTree = "<group>"; };
 		E0BB8BD21999FFEA0093F1E7 /* button02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button02.gif; sourceTree = "<group>"; };
@@ -836,6 +839,7 @@
 		E0C6E522199C8ABF007B256B /* 9patch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9patch.png; sourceTree = "<group>"; };
 		E0C6E524199C8AF5007B256B /* PreferenceScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreferenceScene.cpp; sourceTree = "<group>"; };
 		E0C6E525199C8AF5007B256B /* PreferenceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceScene.h; sourceTree = "<group>"; };
+		E0DC84BC199CAE4D00C7413B /* AppPlatform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppPlatform.cpp; sourceTree = "<group>"; };
 		E0DCB9A3199B246200265F41 /* BuilderScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuilderScene.cpp; sourceTree = "<group>"; };
 		E0DCB9A4199B246200265F41 /* BuilderScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1357,6 +1361,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E0DC84BC199CAE4D00C7413B /* AppPlatform.cpp */,
 				E0C6E51C199C7A5F007B256B /* CCBLayer.cpp */,
 				E0C6E51D199C7A5F007B256B /* CCBLayer.h */,
 				E0C6E51F199C7A5F007B256B /* CCBLayerLoader.h */,
@@ -1370,6 +1375,8 @@
 				E0DCB9A4199B246200265F41 /* BuilderScene.h */,
 				E0C6E524199C8AF5007B256B /* PreferenceScene.cpp */,
 				E0C6E525199C8AF5007B256B /* PreferenceScene.h */,
+				E0710B18199CA6360035CD1E /* AppPlatform.h */,
+				E0710B1A199CA75A0035CD1E /* AppPlatform.mm */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2252,6 +2259,7 @@
 				15C0B595196D412F007F909D /* TriggerBase.cpp in Sources */,
 				15A3DA3F1682F826002FB0C5 /* CCLayerLoader.cpp in Sources */,
 				15A3DA401682F826002FB0C5 /* CCMenuItemImageLoader.cpp in Sources */,
+				E0710B1B199CA75A0035CD1E /* AppPlatform.mm in Sources */,
 				15A3DA411682F826002FB0C5 /* CCMenuItemLoader.cpp in Sources */,
 				15A3DA421682F826002FB0C5 /* CCNode+CCBRelativePositioning.cpp in Sources */,
 				15A3DA431682F826002FB0C5 /* CCNodeLoader.cpp in Sources */,
