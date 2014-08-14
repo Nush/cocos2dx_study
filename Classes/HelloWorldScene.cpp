@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "BuilderScene.h"
+#include "PreferenceScene.h"
 
 USING_NS_CC;
 
@@ -95,6 +96,19 @@ bool HelloWorld::init()
     
     this->addChild(builderBtn);
     
+    // Preferenceへ移動
+    CCMenuItemLabel* preBtnItem = CCMenuItemLabel::create(
+                                                              CCLabelTTF::create("Preferenceへ", "arial", 48),
+                                                              this,
+                                                              menu_selector(HelloWorld::preSceneCallback));
+    preBtnItem->setPosition(ccp(
+                                    visibleSize.width-testBtnItem->getContentSize().width*2-preBtnItem->getContentSize().width/2,
+                                    preBtnItem->getContentSize().height*1.5));
+    CCMenu* preBtn = CCMenu::create(preBtnItem,NULL);
+    preBtn->setPosition(CCPointZero);
+    
+    this->addChild(preBtn);
+    
     return true;
 }
 /*
@@ -118,6 +132,11 @@ void HelloWorld::testBtnPushedCallback(CCObject* sender)
 void HelloWorld::builderSceneCallback(cocos2d::CCObject *sender)
 {
     CCTransitionFade* trans = CCTransitionFade::create(2.0f, BuilderScene::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::preSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionFade* trans = CCTransitionFade::create(2.0f, Preference::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 /*
