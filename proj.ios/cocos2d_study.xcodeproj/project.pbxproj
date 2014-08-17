@@ -269,6 +269,7 @@
 		E020DA77199B5D4D0094A97F /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA73199B5D4D0094A97F /* rainy.png */; };
 		E020DA78199B5D4D0094A97F /* SceneBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA74199B5D4D0094A97F /* SceneBG.png */; };
 		E020DA79199B5D4D0094A97F /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA75199B5D4D0094A97F /* sunny.png */; };
+		E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
 		E0710B1B199CA75A0035CD1E /* AppPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0710B1A199CA75A0035CD1E /* AppPlatform.mm */; };
@@ -827,6 +828,8 @@
 		E020DA73199B5D4D0094A97F /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainy.png; path = "Published-iOS/rainy.png"; sourceTree = "<group>"; };
 		E020DA74199B5D4D0094A97F /* SceneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneBG.png; path = "Published-iOS/SceneBG.png"; sourceTree = "<group>"; };
 		E020DA75199B5D4D0094A97F /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = "Published-iOS/sunny.png"; sourceTree = "<group>"; };
+		E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkScene.cpp; sourceTree = "<group>"; };
+		E03522D5199E0F5F00E00B07 /* NetworkScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkScene.h; sourceTree = "<group>"; };
 		E0710B18199CA6360035CD1E /* AppPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPlatform.h; sourceTree = "<group>"; };
 		E0710B1A199CA75A0035CD1E /* AppPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppPlatform.mm; sourceTree = "<group>"; };
 		E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos2dx_logo.png; sourceTree = "<group>"; };
@@ -1377,6 +1380,8 @@
 				E0C6E525199C8AF5007B256B /* PreferenceScene.h */,
 				E0710B18199CA6360035CD1E /* AppPlatform.h */,
 				E0710B1A199CA75A0035CD1E /* AppPlatform.mm */,
+				E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */,
+				E03522D5199E0F5F00E00B07 /* NetworkScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2314,6 +2319,7 @@
 				15A3DAEE1682F8A6002FB0C5 /* SimpleAudioEngine.mm in Sources */,
 				15C0B554196D412F007F909D /* CCNodeReader.cpp in Sources */,
 				15C0B551196D412F007F909D /* CCActionTimeline.cpp in Sources */,
+				E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */,
 				15A3DAEF1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m in Sources */,
 				1A27573F1697CF2B00504026 /* CCEditBoxImplAndroid.cpp in Sources */,
 				15C0B58D196D412F007F909D /* ListViewReader.cpp in Sources */,

@@ -1,6 +1,7 @@
 #include "HelloWorldScene.h"
 #include "BuilderScene.h"
 #include "PreferenceScene.h"
+#include "NetworkScene.h"
 
 USING_NS_CC;
 
@@ -89,25 +90,35 @@ bool HelloWorld::init()
                                         this,
                                         menu_selector(HelloWorld::builderSceneCallback));
     builderBtnItem->setPosition(ccp(
-        visibleSize.width-testBtnItem->getContentSize().width*2-builderBtnItem->getContentSize().width/2,
+        visibleSize.width/2,
         builderBtnItem->getContentSize().height/2));
-    CCMenu* builderBtn = CCMenu::create(builderBtnItem,NULL);
-    builderBtn->setPosition(CCPointZero);
-    
-    this->addChild(builderBtn);
+
     
     // Preferenceへ移動
     CCMenuItemLabel* preBtnItem = CCMenuItemLabel::create(
-                                                              CCLabelTTF::create("Preferenceへ", "arial", 48),
-                                                              this,
-                                                              menu_selector(HelloWorld::preSceneCallback));
+                                    CCLabelTTF::create("Preferenceへ", "arial", 48),
+                                    this,
+                                    menu_selector(HelloWorld::preSceneCallback));
     preBtnItem->setPosition(ccp(
-                                    visibleSize.width-testBtnItem->getContentSize().width*2-preBtnItem->getContentSize().width/2,
-                                    preBtnItem->getContentSize().height*1.5));
-    CCMenu* preBtn = CCMenu::create(preBtnItem,NULL);
-    preBtn->setPosition(CCPointZero);
+        visibleSize.width/2,
+        preBtnItem->getContentSize().height*1.5));
     
-    this->addChild(preBtn);
+    // Networkへ移動
+    CCMenuItemLabel* netBtnItem = CCMenuItemLabel::create(
+                                    CCLabelTTF::create("HttpRequestへ", "arial", 48),
+                                    this,
+                                    menu_selector(HelloWorld::netSceneCallback));
+    netBtnItem->setPosition(ccp(
+         visibleSize.width/2,
+         netBtnItem->getContentSize().height*2.5));
+    
+    
+    
+    // Menu
+    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,NULL);
+    menuBtn->setPosition(CCPointZero);
+    
+    this->addChild(menuBtn);
     
     return true;
 }
@@ -136,7 +147,12 @@ void HelloWorld::builderSceneCallback(cocos2d::CCObject *sender)
 }
 void HelloWorld::preSceneCallback(cocos2d::CCObject *sender)
 {
-    CCTransitionFade* trans = CCTransitionFade::create(2.0f, Preference::scene());
+    CCTransitionMoveInR* trans = CCTransitionMoveInR::create(2.0f, Preference::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::netSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionFlipY* trans = CCTransitionFlipY::create(0.5f, NetworkScene::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 /*
