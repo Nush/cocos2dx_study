@@ -465,7 +465,9 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Skeleton.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SkeletonJson.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/CCSkeleton.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/CCSkeletonAnimation.h
+ /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/CCSkeletonAnimation.h \
+ jni/../../Classes/NetworkScene.h jni/../../Classes/SQLiteScene.h \
+ jni/../../Classes/SQlite/sqlite3.h jni/../../Classes/TweetScene.h
 
 jni/../../Classes/HelloWorldScene.h:
 
@@ -1400,3 +1402,11 @@ jni/../../Classes/PreferenceScene.h:
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/CCSkeleton.h:
 
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/CCSkeletonAnimation.h:
+
+jni/../../Classes/NetworkScene.h:
+
+jni/../../Classes/SQLiteScene.h:
+
+jni/../../Classes/SQlite/sqlite3.h:
+
+jni/../../Classes/TweetScene.h:

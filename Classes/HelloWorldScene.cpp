@@ -2,6 +2,8 @@
 #include "BuilderScene.h"
 #include "PreferenceScene.h"
 #include "NetworkScene.h"
+#include "SQLiteScene.h"
+#include "TweetScene.h"
 
 USING_NS_CC;
 
@@ -112,10 +114,28 @@ bool HelloWorld::init()
          visibleSize.width/2,
          netBtnItem->getContentSize().height*2.5));
     
+    // SQLiteへ移動
+    CCMenuItemLabel* sqlBtnItem = CCMenuItemLabel::create(
+                                                          CCLabelTTF::create("SQLiteへ", "arial", 48),
+                                                          this,
+                                                          menu_selector(HelloWorld::sqlSceneCallback));
+    sqlBtnItem->setPosition(ccp(
+                                visibleSize.width/2,
+                                sqlBtnItem->getContentSize().height*3.5));
+    
+    
+    // Tweetへ移動
+    CCMenuItemLabel* twtBtnItem = CCMenuItemLabel::create(
+                                                          CCLabelTTF::create("Twitterへ", "arial", 48),
+                                                          this,
+                                                          menu_selector(HelloWorld::twtSceneCallback));
+    twtBtnItem->setPosition(ccp(
+                                visibleSize.width/2,
+                                twtBtnItem->getContentSize().height*4.5));
     
     
     // Menu
-    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,NULL);
+    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,sqlBtnItem,twtBtnItem,NULL);
     menuBtn->setPosition(CCPointZero);
     
     this->addChild(menuBtn);
@@ -153,6 +173,16 @@ void HelloWorld::preSceneCallback(cocos2d::CCObject *sender)
 void HelloWorld::netSceneCallback(cocos2d::CCObject *sender)
 {
     CCTransitionFlipY* trans = CCTransitionFlipY::create(0.5f, NetworkScene::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::sqlSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionFlipX* trans = CCTransitionFlipX::create(0.5f, SQLiteScene::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::twtSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionCrossFade * trans = CCTransitionCrossFade::create(0.5f, TweetScene::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 /*

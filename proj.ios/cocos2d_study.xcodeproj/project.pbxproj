@@ -269,9 +269,12 @@
 		E020DA77199B5D4D0094A97F /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA73199B5D4D0094A97F /* rainy.png */; };
 		E020DA78199B5D4D0094A97F /* SceneBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA74199B5D4D0094A97F /* SceneBG.png */; };
 		E020DA79199B5D4D0094A97F /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA75199B5D4D0094A97F /* sunny.png */; };
+		E0260E7919A18E00007DB4BC /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = E0260E7619A18E00007DB4BC /* sqlite3.c */; };
+		E0260E7C19A18EA7007DB4BC /* SQLiteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */; };
 		E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
+		E055454C19A1E85D00B3E11B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E055454B19A1E85D00B3E11B /* Twitter.framework */; };
 		E0710B1B199CA75A0035CD1E /* AppPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0710B1A199CA75A0035CD1E /* AppPlatform.mm */; };
 		E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */; };
 		E0BB8BD31999FFEA0093F1E7 /* button01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD11999FFEA0093F1E7 /* button01.gif */; };
@@ -280,6 +283,8 @@
 		E0C6E520199C7A5F007B256B /* CCBLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E51C199C7A5F007B256B /* CCBLayer.cpp */; };
 		E0C6E523199C8ABF007B256B /* 9patch.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C6E522199C8ABF007B256B /* 9patch.png */; };
 		E0C6E526199C8AF5007B256B /* PreferenceScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C6E524199C8AF5007B256B /* PreferenceScene.cpp */; };
+		E0D6073519A1EFA600C085BE /* TweetScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0D6073319A1EFA600C085BE /* TweetScene.cpp */; };
+		E0D7CBB619A1F9D200A3FBFF /* NativeTwitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = E055454919A1E63C00B3E11B /* NativeTwitter.mm */; };
 		E0DCB9A5199B246200265F41 /* BuilderScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0DCB9A3199B246200265F41 /* BuilderScene.cpp */; };
 /* End PBXBuildFile section */
 
@@ -828,8 +833,17 @@
 		E020DA73199B5D4D0094A97F /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainy.png; path = "Published-iOS/rainy.png"; sourceTree = "<group>"; };
 		E020DA74199B5D4D0094A97F /* SceneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneBG.png; path = "Published-iOS/SceneBG.png"; sourceTree = "<group>"; };
 		E020DA75199B5D4D0094A97F /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = "Published-iOS/sunny.png"; sourceTree = "<group>"; };
+		E0260E7619A18E00007DB4BC /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		E0260E7719A18E00007DB4BC /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		E0260E7819A18E00007DB4BC /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
+		E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SQLiteScene.cpp; sourceTree = "<group>"; };
+		E0260E7B19A18EA7007DB4BC /* SQLiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteScene.h; sourceTree = "<group>"; };
 		E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkScene.cpp; sourceTree = "<group>"; };
 		E03522D5199E0F5F00E00B07 /* NetworkScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkScene.h; sourceTree = "<group>"; };
+		E055454819A1E63C00B3E11B /* NativeTwitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTwitter.h; sourceTree = "<group>"; };
+		E055454919A1E63C00B3E11B /* NativeTwitter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeTwitter.mm; sourceTree = "<group>"; };
+		E055454A19A1E66700B3E11B /* NativeTwitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTwitter.cpp; sourceTree = "<group>"; };
+		E055454B19A1E85D00B3E11B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		E0710B18199CA6360035CD1E /* AppPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPlatform.h; sourceTree = "<group>"; };
 		E0710B1A199CA75A0035CD1E /* AppPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppPlatform.mm; sourceTree = "<group>"; };
 		E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos2dx_logo.png; sourceTree = "<group>"; };
@@ -842,6 +856,8 @@
 		E0C6E522199C8ABF007B256B /* 9patch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9patch.png; sourceTree = "<group>"; };
 		E0C6E524199C8AF5007B256B /* PreferenceScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreferenceScene.cpp; sourceTree = "<group>"; };
 		E0C6E525199C8AF5007B256B /* PreferenceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceScene.h; sourceTree = "<group>"; };
+		E0D6073319A1EFA600C085BE /* TweetScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TweetScene.cpp; sourceTree = "<group>"; };
+		E0D6073419A1EFA600C085BE /* TweetScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetScene.h; sourceTree = "<group>"; };
 		E0DC84BC199CAE4D00C7413B /* AppPlatform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppPlatform.cpp; sourceTree = "<group>"; };
 		E0DCB9A3199B246200265F41 /* BuilderScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuilderScene.cpp; sourceTree = "<group>"; };
 		E0DCB9A4199B246200265F41 /* BuilderScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderScene.h; sourceTree = "<group>"; };
@@ -852,6 +868,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E055454C19A1E85D00B3E11B /* Twitter.framework in Frameworks */,
 				15A3DA6A1682F886002FB0C5 /* libcocos2dx.a in Frameworks */,
 				1ACB3244164770DE00914215 /* libcurl.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -1364,6 +1381,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E0260E7519A18E00007DB4BC /* SQlite */,
 				E0DC84BC199CAE4D00C7413B /* AppPlatform.cpp */,
 				E0C6E51C199C7A5F007B256B /* CCBLayer.cpp */,
 				E0C6E51D199C7A5F007B256B /* CCBLayer.h */,
@@ -1382,6 +1400,13 @@
 				E0710B1A199CA75A0035CD1E /* AppPlatform.mm */,
 				E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */,
 				E03522D5199E0F5F00E00B07 /* NetworkScene.h */,
+				E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */,
+				E0260E7B19A18EA7007DB4BC /* SQLiteScene.h */,
+				E055454819A1E63C00B3E11B /* NativeTwitter.h */,
+				E055454919A1E63C00B3E11B /* NativeTwitter.mm */,
+				E055454A19A1E66700B3E11B /* NativeTwitter.cpp */,
+				E0D6073319A1EFA600C085BE /* TweetScene.cpp */,
+				E0D6073419A1EFA600C085BE /* TweetScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -1975,6 +2000,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E055454B19A1E85D00B3E11B /* Twitter.framework */,
 				1ACB3243164770DE00914215 /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
@@ -2020,6 +2046,16 @@
 			);
 			name = Resources;
 			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		E0260E7519A18E00007DB4BC /* SQlite */ = {
+			isa = PBXGroup;
+			children = (
+				E0260E7619A18E00007DB4BC /* sqlite3.c */,
+				E0260E7719A18E00007DB4BC /* sqlite3.h */,
+				E0260E7819A18E00007DB4BC /* sqlite3ext.h */,
+			);
+			path = SQlite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2126,6 +2162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D7CBB619A1F9D200A3FBFF /* NativeTwitter.mm in Sources */,
 				E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */,
 				E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */,
 				15A3D9011682F7D5002FB0C5 /* b2CollideEdge.cpp in Sources */,
@@ -2228,6 +2265,7 @@
 				E0C6E520199C7A5F007B256B /* CCBLayer.cpp in Sources */,
 				15A3D9AB1682F7F9002FB0C5 /* cpSpace.c in Sources */,
 				15C0B587196D412F007F909D /* CheckBoxReader.cpp in Sources */,
+				E0260E7C19A18EA7007DB4BC /* SQLiteScene.cpp in Sources */,
 				15A3D9AC1682F7F9002FB0C5 /* cpSpaceComponent.c in Sources */,
 				15A3D9AD1682F7F9002FB0C5 /* cpSpaceHash.c in Sources */,
 				15A3D9AE1682F7F9002FB0C5 /* cpSpaceQuery.c in Sources */,
@@ -2274,6 +2312,7 @@
 				15C0B56B196D412F007F909D /* CCComController.cpp in Sources */,
 				15C0B56D196D412F007F909D /* CCInputDelegate.cpp in Sources */,
 				15A3DA461682F826002FB0C5 /* CCScale9SpriteLoader.cpp in Sources */,
+				E0D6073519A1EFA600C085BE /* TweetScene.cpp in Sources */,
 				15A3DA471682F826002FB0C5 /* CCScrollViewLoader.cpp in Sources */,
 				15A3DA481682F826002FB0C5 /* CCSpriteLoader.cpp in Sources */,
 				15C0B578196D412F007F909D /* UIButton.cpp in Sources */,
@@ -2325,6 +2364,7 @@
 				15C0B58D196D412F007F909D /* ListViewReader.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				E0260E7919A18E00007DB4BC /* sqlite3.c in Sources */,
 				15C0B57E196D412F007F909D /* UILoadingBar.cpp in Sources */,
 				1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */,
 				1AC3624B16D4A1E8000847F2 /* main.m in Sources */,

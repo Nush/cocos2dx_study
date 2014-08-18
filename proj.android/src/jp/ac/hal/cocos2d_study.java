@@ -26,6 +26,7 @@ package jp.ac.hal;
 import org.cocos2dx.lib.Cocos2dxActivity;
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
 
+import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -34,13 +35,23 @@ import android.os.Bundle;
 
 public class cocos2d_study extends Cocos2dxActivity{
 	public static String appVersion = "";
+	static org.cocos2dx.lib.Cocos2dxActivity my;
 	public static String getAppVersionInJava(){
 		return appVersion;
 	}
     protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);	
 		appVersion = "Android API : "+ String.valueOf(Build.VERSION.SDK_INT);
+		my = this;
 	}
+    
+    public static void tweet(String $msg){
+    	Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, $msg);
+        my.startActivity(intent);
+    }
 
     public Cocos2dxGLSurfaceView onCreateView() {
     	Cocos2dxGLSurfaceView glSurfaceView = new Cocos2dxGLSurfaceView(this);
