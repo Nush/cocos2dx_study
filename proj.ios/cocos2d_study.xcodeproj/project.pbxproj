@@ -274,6 +274,9 @@
 		E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
+		E04B534319A310D100B810C5 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = E04B533A19A310D100B810C5 /* Android.mk */; };
+		E04B534619A310D100B810C5 /* CCWebView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E04B534219A310D100B810C5 /* CCWebView.mm */; };
+		E04B534F19A3124400B810C5 /* WebViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E04B534D19A3124400B810C5 /* WebViewScene.cpp */; };
 		E055454C19A1E85D00B3E11B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E055454B19A1E85D00B3E11B /* Twitter.framework */; };
 		E0710B1B199CA75A0035CD1E /* AppPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0710B1A199CA75A0035CD1E /* AppPlatform.mm */; };
 		E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */; };
@@ -840,6 +843,14 @@
 		E0260E7B19A18EA7007DB4BC /* SQLiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteScene.h; sourceTree = "<group>"; };
 		E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkScene.cpp; sourceTree = "<group>"; };
 		E03522D5199E0F5F00E00B07 /* NetworkScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkScene.h; sourceTree = "<group>"; };
+		E04B533A19A310D100B810C5 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		E04B533B19A310D100B810C5 /* CCWebView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWebView.cpp; sourceTree = "<group>"; };
+		E04B533D19A310D100B810C5 /* Java_org_cocos2dx_lib_Cocos2dxWebView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Java_org_cocos2dx_lib_Cocos2dxWebView.cpp; sourceTree = "<group>"; };
+		E04B533E19A310D100B810C5 /* Java_org_cocos2dx_lib_Cocos2dxWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Java_org_cocos2dx_lib_Cocos2dxWebView.h; sourceTree = "<group>"; };
+		E04B534019A310D100B810C5 /* CCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWebView.h; sourceTree = "<group>"; };
+		E04B534219A310D100B810C5 /* CCWebView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCWebView.mm; sourceTree = "<group>"; };
+		E04B534D19A3124400B810C5 /* WebViewScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WebViewScene.cpp; sourceTree = "<group>"; };
+		E04B534E19A3124400B810C5 /* WebViewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewScene.h; sourceTree = "<group>"; };
 		E055454819A1E63C00B3E11B /* NativeTwitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTwitter.h; sourceTree = "<group>"; };
 		E055454919A1E63C00B3E11B /* NativeTwitter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeTwitter.mm; sourceTree = "<group>"; };
 		E055454A19A1E66700B3E11B /* NativeTwitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeTwitter.cpp; sourceTree = "<group>"; };
@@ -1407,6 +1418,8 @@
 				E055454A19A1E66700B3E11B /* NativeTwitter.cpp */,
 				E0D6073319A1EFA600C085BE /* TweetScene.cpp */,
 				E0D6073419A1EFA600C085BE /* TweetScene.h */,
+				E04B534D19A3124400B810C5 /* WebViewScene.cpp */,
+				E04B534E19A3124400B810C5 /* WebViewScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -1982,6 +1995,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E04B533819A310D100B810C5 /* webview_plugin */,
 				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
 				15A3D8871682F7D5002FB0C5 /* Box2D */,
 				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
@@ -2056,6 +2070,52 @@
 				E0260E7819A18E00007DB4BC /* sqlite3ext.h */,
 			);
 			path = SQlite;
+			sourceTree = "<group>";
+		};
+		E04B533819A310D100B810C5 /* webview_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				E04B533919A310D100B810C5 /* android */,
+				E04B533F19A310D100B810C5 /* include */,
+				E04B534119A310D100B810C5 /* ios */,
+			);
+			name = webview_plugin;
+			path = ../../../webview_plugin;
+			sourceTree = "<group>";
+		};
+		E04B533919A310D100B810C5 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				E04B533A19A310D100B810C5 /* Android.mk */,
+				E04B533B19A310D100B810C5 /* CCWebView.cpp */,
+				E04B533C19A310D100B810C5 /* jni */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		E04B533C19A310D100B810C5 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				E04B533D19A310D100B810C5 /* Java_org_cocos2dx_lib_Cocos2dxWebView.cpp */,
+				E04B533E19A310D100B810C5 /* Java_org_cocos2dx_lib_Cocos2dxWebView.h */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		E04B533F19A310D100B810C5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E04B534019A310D100B810C5 /* CCWebView.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E04B534119A310D100B810C5 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E04B534219A310D100B810C5 /* CCWebView.mm */,
+			);
+			path = ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2140,6 +2200,7 @@
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				E020DA78199B5D4D0094A97F /* SceneBG.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
+				E04B534319A310D100B810C5 /* Android.mk in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
 				E016E9FD199B57F2008C490F /* fileLookup.plist in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
@@ -2177,6 +2238,7 @@
 				15A3D9061682F7D5002FB0C5 /* b2TimeOfImpact.cpp in Sources */,
 				15A3D9071682F7D5002FB0C5 /* b2ChainShape.cpp in Sources */,
 				15A3D9081682F7D5002FB0C5 /* b2CircleShape.cpp in Sources */,
+				E04B534619A310D100B810C5 /* CCWebView.mm in Sources */,
 				15A3D9091682F7D5002FB0C5 /* b2EdgeShape.cpp in Sources */,
 				15A3D90A1682F7D5002FB0C5 /* b2PolygonShape.cpp in Sources */,
 				15A3D90B1682F7D5002FB0C5 /* b2BlockAllocator.cpp in Sources */,
@@ -2322,6 +2384,7 @@
 				15A3DA4C1682F826002FB0C5 /* CCControlHuePicker.cpp in Sources */,
 				15C0B55E196D412F007F909D /* CCDisplayFactory.cpp in Sources */,
 				15A3DA4D1682F826002FB0C5 /* CCControlPotentiometer.cpp in Sources */,
+				E04B534F19A3124400B810C5 /* WebViewScene.cpp in Sources */,
 				15A3DA4E1682F826002FB0C5 /* CCControlSaturationBrightnessPicker.cpp in Sources */,
 				15A3DA4F1682F826002FB0C5 /* CCControlSlider.cpp in Sources */,
 				15C0B591196D412F007F909D /* SliderReader.cpp in Sources */,

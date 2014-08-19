@@ -38,6 +38,8 @@ bool Title::init()
     versionLabel->setPosition(ccp(visibleSize.width-versionLabel->getContentSize().width/2, versionLabel->getContentSize().height/2));
     this->addChild(versionLabel);
     
+    std::cout << "a";
+    
     return true;
 }
 bool Title::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)

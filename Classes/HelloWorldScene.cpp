@@ -4,6 +4,7 @@
 #include "NetworkScene.h"
 #include "SQLiteScene.h"
 #include "TweetScene.h"
+#include "WebViewScene.h"
 
 USING_NS_CC;
 
@@ -86,6 +87,11 @@ bool HelloWorld::init()
     
     this->addChild(testBtn);
     
+    
+    //===================================================================================
+    // Scene移動ラベル
+    //===================================================================================
+    
     // CocosBuilderで作成したSceneへ移動
     CCMenuItemLabel* builderBtnItem = CCMenuItemLabel::create(
                                         CCLabelTTF::create("BuilderSceneへ", "arial", 48),
@@ -132,10 +138,19 @@ bool HelloWorld::init()
     twtBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 twtBtnItem->getContentSize().height*4.5));
+
+    // WebViewへ移動
+    CCMenuItemLabel* webBtnItem = CCMenuItemLabel::create(
+                                                          CCLabelTTF::create("WebViewへ", "arial", 48),
+                                                          this,
+                                                          menu_selector(HelloWorld::webSceneCallback));
+    webBtnItem->setPosition(ccp(
+                                visibleSize.width/2,
+                                webBtnItem->getContentSize().height*5.5));
     
     
     // Menu
-    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,sqlBtnItem,twtBtnItem,NULL);
+    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,sqlBtnItem,twtBtnItem,webBtnItem,NULL);
     menuBtn->setPosition(CCPointZero);
     
     this->addChild(menuBtn);
@@ -182,7 +197,12 @@ void HelloWorld::sqlSceneCallback(cocos2d::CCObject *sender)
 }
 void HelloWorld::twtSceneCallback(cocos2d::CCObject *sender)
 {
-    CCTransitionCrossFade * trans = CCTransitionCrossFade::create(0.5f, TweetScene::scene());
+    CCTransitionCrossFade* trans = CCTransitionCrossFade::create(0.5f, TweetScene::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::webSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionJumpZoom* trans = CCTransitionJumpZoom::create(0.5f, WebViewScene::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 /*
