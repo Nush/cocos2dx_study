@@ -19,6 +19,7 @@ public:
     void sqlSceneCallback(CCObject* sender);
     void twtSceneCallback(CCObject* sender);
     void webSceneCallback(CCObject* sender);
+    void cppSceneCallback(CCObject* sender);
     
     // タッチの開始、移動中、終了時に呼ばれる
     virtual bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
