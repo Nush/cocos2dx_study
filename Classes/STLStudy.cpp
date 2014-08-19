@@ -97,9 +97,6 @@ void STLStudy::studyMap()
     m_mapData.insert(std::pair<char*, int>("田中",22));
     m_mapData.insert(std::pair<char*,int>("佐藤",25));
     m_mapData.insert(std::pair<char*,int>("高橋",20));
-    
-
-
 }
 void STLStudy::studyList()
 {
