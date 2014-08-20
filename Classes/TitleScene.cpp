@@ -38,7 +38,10 @@ bool Title::init()
     versionLabel->setPosition(ccp(visibleSize.width-versionLabel->getContentSize().width/2, versionLabel->getContentSize().height/2));
     this->addChild(versionLabel);
     
-    std::cout << "a";
+    // CCLabelBMFont使ってみる
+    CCLabelBMFont* bmFontTest = CCLabelBMFont::create("123,456,789", "score.fnt");
+    bmFontTest->setPosition(ccp(visibleSize.width/2, bmFontTest->getContentSize().height/2));
+    this->addChild(bmFontTest);
     
     return true;
 }

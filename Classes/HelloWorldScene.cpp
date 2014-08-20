@@ -5,6 +5,7 @@
 #include "SQLiteScene.h"
 #include "TweetScene.h"
 #include "WebViewScene.h"
+#include "CPPStudyScene.h"
 
 USING_NS_CC;
 
@@ -148,9 +149,25 @@ bool HelloWorld::init()
                                 visibleSize.width/2,
                                 webBtnItem->getContentSize().height*5.5));
     
+    // CPPStudyへ移動
+    CCMenuItemLabel* cppBtnItem = CCMenuItemLabel::create(
+                                                          CCLabelTTF::create("CPPStudyへ", "arial", 48),
+                                                          this,
+                                                          menu_selector(HelloWorld::cppSceneCallback));
+    cppBtnItem->setPosition(ccp(
+                                visibleSize.width/2,
+                                cppBtnItem->getContentSize().height*6.5));
+    
     
     // Menu
-    CCMenu* menuBtn = CCMenu::create(builderBtnItem,preBtnItem,netBtnItem,sqlBtnItem,twtBtnItem,webBtnItem,NULL);
+    CCMenu* menuBtn = CCMenu::create(builderBtnItem,
+                                     preBtnItem,
+                                     netBtnItem,
+                                     sqlBtnItem,
+                                     twtBtnItem,
+                                     webBtnItem,
+                                     cppBtnItem,
+                                     NULL);
     menuBtn->setPosition(CCPointZero);
     
     this->addChild(menuBtn);
@@ -202,7 +219,12 @@ void HelloWorld::twtSceneCallback(cocos2d::CCObject *sender)
 }
 void HelloWorld::webSceneCallback(cocos2d::CCObject *sender)
 {
-    CCTransitionJumpZoom* trans = CCTransitionJumpZoom::create(0.5f, WebViewScene::scene());
+    CCTransitionMoveInR* trans = CCTransitionMoveInR::create(0.5f, WebViewScene::scene());
+    CCDirector::sharedDirector()->replaceScene(trans);
+}
+void HelloWorld::cppSceneCallback(cocos2d::CCObject *sender)
+{
+    CCTransitionJumpZoom* trans = CCTransitionJumpZoom::create(0.5f, CPPStudyScene::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 /*
