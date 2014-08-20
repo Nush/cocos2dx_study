@@ -219,7 +219,7 @@ void HelloWorld::twtSceneCallback(cocos2d::CCObject *sender)
 }
 void HelloWorld::webSceneCallback(cocos2d::CCObject *sender)
 {
-    CCTransitionJumpZoom* trans = CCTransitionJumpZoom::create(0.5f, WebViewScene::scene());
+    CCTransitionMoveInR* trans = CCTransitionMoveInR::create(0.5f, WebViewScene::scene());
     CCDirector::sharedDirector()->replaceScene(trans);
 }
 void HelloWorld::cppSceneCallback(cocos2d::CCObject *sender)

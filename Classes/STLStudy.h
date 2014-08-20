@@ -5,19 +5,19 @@
 USING_NS_CC;
 class STLStudy{
 private:
-    char* m_name;
+    const char* m_name;
     std::vector<int> m_vectorData;
     std::set<int> m_setData;
-    std::map<char*, int, std::greater<std::string> > m_mapData;
-    std::list<char*> m_listData;
+    std::map<const char*, int, std::greater<std::string> > m_mapData;
+    std::list<const char*> m_listData;
 public:
     STLStudy();
-    STLStudy(char* name);
+    STLStudy(const char* name);
     ~STLStudy();
     
     // setter,getter
-    char* getName();
-    void setName(char* name);
+    const char* getName();
+    void setName(const char* name);
     
     // STL練習(意味ないことします)
     void studyVector();

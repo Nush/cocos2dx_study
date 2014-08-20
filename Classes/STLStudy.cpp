@@ -11,7 +11,7 @@ STLStudy::STLStudy()
     m_name = "No name";
     CCLOG("コンストラクタ：引数なし");
 }
-STLStudy::STLStudy(char* name)
+STLStudy::STLStudy(const char* name)
 {
     m_name = name;
     CCLOG("コンストラクタ：引数あり");
@@ -20,11 +20,11 @@ STLStudy::~STLStudy()
 {
     CCLOG("デストラクタ");
 }
-char* STLStudy::getName()
+const char* STLStudy::getName()
 {
     return m_name;
 }
-void STLStudy::setName(char* name)
+void STLStudy::setName(const char* name)
 {
     m_name = name;
 }
@@ -91,12 +91,13 @@ void STLStudy::studySet()
 }
 void STLStudy::studyMap()
 {
-    std::map<char*, int,std::greater<std::string> >::iterator it;
+    std::map<const char*, int,std::greater<std::string> >::iterator it;
     CCLOG("std:map");
     
-    m_mapData.insert(std::pair<char*, int>("田中",22));
-    m_mapData.insert(std::pair<char*,int>("佐藤",25));
-    m_mapData.insert(std::pair<char*,int>("高橋",20));
+    m_mapData.insert(std::pair<const char*, int>("田中",22));
+    m_mapData.insert(std::pair<const char*,int>("佐藤",25));
+    m_mapData.insert(std::pair<const char*,int>("高橋",20));
+    
 }
 void STLStudy::studyList()
 {
