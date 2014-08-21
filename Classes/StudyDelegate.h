@@ -4,7 +4,7 @@
 class StudyDelegate
 {
 public:
-    virtual void onBtnTouched(){};
-}
+    virtual void onBtnTouched(const char* msg){}
+};
 
 #endif

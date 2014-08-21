@@ -19,5 +19,65 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp"
+            timestampString = "430295065.988035"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "CCLayer::~CCLayer()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cocos2d::CCLayer::~CCLayer()"
+                  moduleName = "cocos2d_study"
+                  urlString = "file:///Users/temp/cocos2d-x/cocos2d-x-2.2.5/cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp"
+                  timestampString = "430295065.990201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cocos2d::CCLayer::~CCLayer()"
+                  moduleName = "cocos2d_study"
+                  urlString = "file:///Users/temp/cocos2d-x/cocos2d-x-2.2.5/cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp"
+                  timestampString = "430295065.990405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cocos2d::CCLayer::~CCLayer()"
+                  moduleName = "cocos2d_study"
+                  urlString = "file:///Users/temp/cocos2d-x/cocos2d-x-2.2.5/cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp"
+                  timestampString = "430295065.990584"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
