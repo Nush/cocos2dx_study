@@ -1,8 +1,8 @@
 #include "SuperClass.h"
-SuperClass::SuperClass()
-{
-    CCLOG("SuperClass コンストラクタ");
-}
+//SuperClass::SuperClass()
+//{
+//    
+//}
 SuperClass::~SuperClass()
 {
     CCLOG("SuperClass デストラクタ");

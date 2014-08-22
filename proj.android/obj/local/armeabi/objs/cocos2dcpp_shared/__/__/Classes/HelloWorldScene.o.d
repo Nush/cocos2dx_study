@@ -470,7 +470,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
  jni/../../Classes/SQlite/sqlite3.h jni/../../Classes/TweetScene.h \
  jni/../../Classes/WebViewScene.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h \
- jni/../../Classes/CPPStudyScene.h
+ jni/../../Classes/CPPStudyScene.h jni/../../Classes/SuperClass.h \
+ jni/../../Classes/DelegateStudyScene.h jni/../../Classes/StudyDelegate.h
 
 jni/../../Classes/HelloWorldScene.h:
 
@@ -1419,3 +1420,9 @@ jni/../../Classes/WebViewScene.h:
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h:
 
 jni/../../Classes/CPPStudyScene.h:
+
+jni/../../Classes/SuperClass.h:
+
+jni/../../Classes/DelegateStudyScene.h:
+
+jni/../../Classes/StudyDelegate.h:
