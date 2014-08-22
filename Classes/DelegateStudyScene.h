@@ -13,6 +13,9 @@ public:
     
     // delegateメソッド
     virtual void onBtnTouched(const char * msg);
+    
+    void imageBtnToudhedCallback(CCObject* sender);
+    void scallAction(CCObject* sender);
 };
 
 #endif /* defined(__cocos2d_study__DelegateStudyScene__) */

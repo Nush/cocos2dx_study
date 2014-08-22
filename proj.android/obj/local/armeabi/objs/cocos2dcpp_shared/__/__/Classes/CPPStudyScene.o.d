@@ -203,7 +203,7 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/CPPStudyScene.o: \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/data_support/uthash.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponent.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h \
- jni/../../Classes/STLStudy.h jni/../../Classes/SuperClass.h \
+ jni/../../Classes/SuperClass.h jni/../../Classes/STLStudy.h \
  jni/../../Classes/SubClass.h
 
 jni/../../Classes/CPPStudyScene.h:
@@ -614,8 +614,8 @@ jni/../../Classes/CPPStudyScene.h:
 
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h:
 
-jni/../../Classes/STLStudy.h:
-
 jni/../../Classes/SuperClass.h:
+
+jni/../../Classes/STLStudy.h:
 
 jni/../../Classes/SubClass.h:

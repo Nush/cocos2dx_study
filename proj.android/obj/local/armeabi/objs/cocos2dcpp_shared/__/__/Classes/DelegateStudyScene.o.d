@@ -203,7 +203,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/DelegateStudyScene.o: \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/CCScheduler.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/data_support/uthash.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponent.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h
+ /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h \
+ jni/../../Classes/StudyDelegate.h jni/../../Classes/DelegateStudyParts.h
 
 jni/../../Classes/DelegateStudyScene.h:
 
@@ -612,3 +613,7 @@ jni/../../Classes/DelegateStudyScene.h:
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponent.h:
 
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/support/component/CCComponentContainer.h:
+
+jni/../../Classes/StudyDelegate.h:
+
+jni/../../Classes/DelegateStudyParts.h:

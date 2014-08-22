@@ -84,8 +84,22 @@ bool CPPStudyScene::init()
     CCLOG("HP: %d",shun.hp);
     CCLOG("MP: %d",shun.mp);
     CCLOG("AT: %d",shun.at);
-    CCLOG("DF: %d",shun.df);
+    CCLOG("DF: %d\n",shun.df);
     
+    
+    CCLOG("=============ポインタのテスト============");
+    SuperClass* pSuper = new SuperClass();
+    this->poinsterTest(pSuper);
+    CCLOG("%s \n",pSuper->getName().c_str());
+    
+    
+    CCLOG("=============テンプレートのテスト============");
+    int a = pSuper->add(5, 5);
+    CCLOG("%d",a);
     
     return true;
+}
+void CPPStudyScene::poinsterTest(SuperClass *pSuper)
+{
+    pSuper->setName("Ultra");
 }

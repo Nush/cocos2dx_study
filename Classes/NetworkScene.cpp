@@ -34,7 +34,7 @@ bool NetworkScene::init()
     
     // サーバーとGET通信
     CCHttpRequest* req = new CCHttpRequest();
-    req->setUrl("localhost:3000/tests");
+    req->setUrl("http://cocos2dx-api.herokuapp.com/tests");
     req->setRequestType(CCHttpRequest::kHttpGet);
     req->setResponseCallback(this, callfuncND_selector(NetworkScene::getCallBack));
     CCHttpClient::getInstance()->send(req);
@@ -91,7 +91,7 @@ void NetworkScene::startHttpRequest()
     sendStr+=editBox->getText();
     
     CCHttpRequest* req = new CCHttpRequest();
-    req->setUrl("localhost:3000/tests");
+    req->setUrl("http://cocos2dx-api.herokuapp.com/tests");
     req->setRequestType(CCHttpRequest::kHttpPost);
     req->setResponseCallback(this, callfuncND_selector(NetworkScene::postCallBack));
     req->setRequestData(sendStr.data(), strlen(sendStr.data()));

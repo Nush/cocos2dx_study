@@ -2,9 +2,12 @@
 #define __cocos2d_study__CPPStudyScene__
 
 #include "cocos2d.h"
+#include "SuperClass.h"
 USING_NS_CC;
 class CPPStudyScene : public CCLayer
 {
+private:
+    void poinsterTest(SuperClass* pSuper);
 public:
     virtual bool init();
     static CCScene* scene();
