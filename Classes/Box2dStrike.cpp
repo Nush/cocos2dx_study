@@ -1,4 +1,5 @@
 #include "Box2dStrike.h"
+#include <Math.h>
 CCScene* Box2dStrike::scene()
 {
     CCScene* scene = CCScene::create();
@@ -202,12 +203,14 @@ void Box2dStrike::BeginContact(b2Contact *contact)
 }
 void Box2dStrike::onEnterTransitionDidFinish()
 {
-    m_playerBody->ApplyForce(b2Vec2(30000,15000), m_playerBody->GetWorldCenter());
+    m_playerBody->ApplyForce(b2Vec2(15000,15000), m_playerBody->GetWorldCenter());
 }
 bool Box2dStrike::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
 {
+    m_playerBody->SetLinearVelocity(b2Vec2(0,0));
+    
     CCSprite* arrow = CCSprite::create("arrow.png");
-    arrow->setAnchorPoint(ccp(0.7f,0.5f));
+    arrow->setAnchorPoint(ccp(0.8f,0.5f));
     m_touchPoint = pTouch->getLocation();
     arrow->setPosition(((CCSprite*)m_playerBody->GetUserData())->getPosition());
     arrow->setScaleX(0.0f);
@@ -221,12 +224,18 @@ void Box2dStrike::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
     float angle = CC_RADIANS_TO_DEGREES(ccpToAngle(ccpSub(currentPoint,m_touchPoint)));
     
     CCSprite* arrow = (CCSprite*)this->getChildByTag(1);
-    arrow->setScaleX(currentPoint.getDistance(m_touchPoint)/150.0f);
+    arrow->setScaleX(currentPoint.getDistance(m_touchPoint)/200.0f);
     arrow->setRotation(angle*-1);
 }
 void Box2dStrike::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
 {
     CCPoint currentPoint = pTouch->getLocation();
+    
+    float distX = currentPoint.x - m_touchPoint.x;
+    float distY = currentPoint.y - m_touchPoint.y;
+    float radian = ccpToAngle(ccpSub(currentPoint,m_touchPoint));
+    
+    m_playerBody->ApplyForceToCenter(b2Vec2(-cos(radian)*30000,-sin(radian)*30000));
     
     this->removeChildByTag(1);
 }

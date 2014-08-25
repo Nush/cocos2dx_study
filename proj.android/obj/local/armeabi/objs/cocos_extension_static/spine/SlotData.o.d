@@ -1,116 +1,116 @@
 obj/local/armeabi/objs/cocos_extension_static/spine/SlotData.o: \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SlotData.cpp \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SlotData.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/BoneData.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionMacros.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionExport.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/extension.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Skeleton.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SkeletonData.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Skin.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Attachment.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionExport.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Animation.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Slot.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Bone.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/RegionAttachment.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Atlas.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/AttachmentLoader.h
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/SlotData.cpp \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/SlotData.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/BoneData.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionMacros.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionExport.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/extension.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Skeleton.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/SkeletonData.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Skin.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Attachment.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionExport.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Animation.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Slot.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Bone.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/RegionAttachment.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Atlas.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/AttachmentLoader.h
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SlotData.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/SlotData.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/BoneData.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/BoneData.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionMacros.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionMacros.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionExport.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionExport.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/extension.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/extension.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Skeleton.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Skeleton.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/SkeletonData.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/SkeletonData.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Skin.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Skin.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Attachment.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Attachment.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/ExtensionExport.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/ExtensionExport.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Animation.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Animation.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Slot.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Slot.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Bone.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Bone.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/RegionAttachment.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/RegionAttachment.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/Atlas.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/Atlas.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../extensions/spine/AttachmentLoader.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../extensions/spine/AttachmentLoader.h:

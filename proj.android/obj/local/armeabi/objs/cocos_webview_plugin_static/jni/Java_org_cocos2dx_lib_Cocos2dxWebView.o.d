@@ -1,242 +1,242 @@
 obj/local/armeabi/objs/cocos_webview_plugin_static/jni/Java_org_cocos2dx_lib_Cocos2dxWebView.o: \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/jni/Java_org_cocos2dx_lib_Cocos2dxWebView.cpp \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/jni/JniHelper.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/string \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCPlatformDefine.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/CCDirector.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDataVisitor.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCGL.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/ccCArray.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccMacros.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCStdC.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/utility.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/label_nodes/CCLabelAtlas.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCAtlasNode.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCNode.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCAffineTransform.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/ccGLStateCache.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/CCGLProgram.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/kazmath.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec2.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec3.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat3.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/quaternion.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/plane.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/aabb.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/ray2.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/script_support/CCScriptSupport.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCAccelerometer.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCAccelerometerDelegate.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/touch_dispatcher/CCTouch.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCSet.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/set \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/map \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/list \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/CCProtocols.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/textures/CCTexture2D.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypeInfo.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/functional \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDictionary.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/uthash.h \
- /Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
- /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/jni/Java_org_cocos2dx_lib_Cocos2dxWebView.cpp \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/jni/JniHelper.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/string \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCPlatformDefine.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/CCDirector.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDataVisitor.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCGL.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/ccCArray.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccMacros.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCStdC.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/utility.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/label_nodes/CCLabelAtlas.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCAtlasNode.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCNode.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCAffineTransform.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/ccGLStateCache.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/CCGLProgram.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/kazmath.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec2.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec3.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat3.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/quaternion.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/plane.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/aabb.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/ray2.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/script_support/CCScriptSupport.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCAccelerometer.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCAccelerometerDelegate.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/touch_dispatcher/CCTouch.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCSet.h \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/set \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/map \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/list \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/CCProtocols.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/textures/CCTexture2D.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypeInfo.h \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h \
+ /Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/functional \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDictionary.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/uthash.h \
+ /Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h \
+ /Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/jni/JniHelper.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/jni/JniHelper.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformConfig.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCPlatformDefine.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCPlatformDefine.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/CCDirector.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/CCDirector.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDataVisitor.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDataVisitor.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCGL.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCGL.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/ccCArray.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/ccCArray.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccMacros.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccMacros.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCPlatformMacros.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCStdC.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCStdC.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccConfig.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCObject.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/utility.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/utility.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/label_nodes/CCLabelAtlas.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/label_nodes/CCLabelAtlas.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCAtlasNode.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCAtlasNode.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCNode.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/base_nodes/CCNode.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCAffineTransform.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCAffineTransform.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCGeometry.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/ccGLStateCache.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/ccGLStateCache.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/CCGLProgram.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/shaders/CCGLProgram.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/kazmath.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/kazmath.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec2.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec2.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec3.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/vec3.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat3.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat3.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/mat4.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/quaternion.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/quaternion.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/plane.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/plane.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/aabb.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/aabb.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/ray2.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../cocos2dx/kazmath/include/kazmath/ray2.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/script_support/CCScriptSupport.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/script_support/CCScriptSupport.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCAccelerometer.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/android/CCAccelerometer.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCAccelerometerDelegate.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCAccelerometerDelegate.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/platform/CCCommon.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/touch_dispatcher/CCTouch.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/touch_dispatcher/CCTouch.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCSet.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCSet.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/set:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/set:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/map:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/map:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/list:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/list:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/CCProtocols.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/CCProtocols.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypes.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/textures/CCTexture2D.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/textures/CCTexture2D.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypeInfo.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/include/ccTypeInfo.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/typeinfo:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../include/CCWebView.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/functional:
+/Users/nush/cocos/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.6/include/functional:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDictionary.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCDictionary.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/uthash.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/support/data_support/uthash.h:
 
-/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h:
+/Users/nush/cocos/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCArray.h:
 
-/Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h:
+/Users/nush/cocos/cocos2d-x-2.2.5/projects/cocos2dx_study/proj.android/../../../webview_plugin/android/../../cocos2dx/cocoa/CCString.h:

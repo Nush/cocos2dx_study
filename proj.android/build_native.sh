@@ -30,7 +30,7 @@ done
 
 # paths
 
-NDK_ROOT="/Applications/adt-bundle-mac-x86_64-20140702/android-ndk-r9d"
+NDK_ROOT="/Users/nush/cocos/android-ndk-r9d"
 if [ -z "${NDK_ROOT+aaa}" ];then
 echo "please define NDK_ROOT"
 exit 1
