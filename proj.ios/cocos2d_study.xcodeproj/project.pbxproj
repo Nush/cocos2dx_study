@@ -271,6 +271,9 @@
 		E020DA79199B5D4D0094A97F /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = E020DA75199B5D4D0094A97F /* sunny.png */; };
 		E0260E7919A18E00007DB4BC /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = E0260E7619A18E00007DB4BC /* sqlite3.c */; };
 		E0260E7C19A18EA7007DB4BC /* SQLiteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */; };
+		E02A687919AAE006008D72FD /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687719AAE006008D72FD /* boss.png */; };
+		E02A687A19AAE006008D72FD /* monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687819AAE006008D72FD /* monster1.png */; };
+		E02A687E19AB117B008D72FD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687D19AB117B008D72FD /* arrow.png */; };
 		E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
@@ -286,6 +289,8 @@
 		E07ADF6119A45440009273BD /* score.fnt in Resources */ = {isa = PBXBuildFile; fileRef = E07ADF5F19A45440009273BD /* score.fnt */; };
 		E07ADF6419A46985009273BD /* SuperClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07ADF6219A46985009273BD /* SuperClass.cpp */; };
 		E07ADF6719A4698F009273BD /* SubClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07ADF6519A4698F009273BD /* SubClass.cpp */; };
+		E08CCDA719AAC6720072DD56 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */; };
+		E08CCDAA19AAC7E50072DD56 /* Box2dStrike.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E08CCDA819AAC7E50072DD56 /* Box2dStrike.cpp */; };
 		E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */; };
 		E0BB8BD31999FFEA0093F1E7 /* button01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD11999FFEA0093F1E7 /* button01.gif */; };
 		E0BB8BD41999FFEA0093F1E7 /* button02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD21999FFEA0093F1E7 /* button02.gif */; };
@@ -850,6 +855,9 @@
 		E0260E7819A18E00007DB4BC /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 		E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SQLiteScene.cpp; sourceTree = "<group>"; };
 		E0260E7B19A18EA7007DB4BC /* SQLiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteScene.h; sourceTree = "<group>"; };
+		E02A687719AAE006008D72FD /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
+		E02A687819AAE006008D72FD /* monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster1.png; sourceTree = "<group>"; };
+		E02A687D19AB117B008D72FD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkScene.cpp; sourceTree = "<group>"; };
 		E03522D5199E0F5F00E00B07 /* NetworkScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkScene.h; sourceTree = "<group>"; };
 		E04B533A19A310D100B810C5 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
@@ -877,6 +885,10 @@
 		E07ADF6319A46985009273BD /* SuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperClass.h; sourceTree = "<group>"; };
 		E07ADF6519A4698F009273BD /* SubClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubClass.cpp; sourceTree = "<group>"; };
 		E07ADF6619A4698F009273BD /* SubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
+		E08CCDA619AAC6720072DD56 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		E08CCDA819AAC7E50072DD56 /* Box2dStrike.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box2dStrike.cpp; sourceTree = "<group>"; };
+		E08CCDA919AAC7E50072DD56 /* Box2dStrike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dStrike.h; sourceTree = "<group>"; };
 		E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos2dx_logo.png; sourceTree = "<group>"; };
 		E0BB8BD11999FFEA0093F1E7 /* button01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button01.gif; sourceTree = "<group>"; };
 		E0BB8BD21999FFEA0093F1E7 /* button02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button02.gif; sourceTree = "<group>"; };
@@ -1417,6 +1429,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E08CCDA419AAC6720072DD56 /* box2d */,
 				E0FC46F819A4A13700ECB013 /* Delegate */,
 				E04B535019A32FBC00B810C5 /* CppStudy */,
 				E0260E7519A18E00007DB4BC /* SQlite */,
@@ -1447,6 +1460,8 @@
 				E0D6073419A1EFA600C085BE /* TweetScene.h */,
 				E04B534D19A3124400B810C5 /* WebViewScene.cpp */,
 				E04B534E19A3124400B810C5 /* WebViewScene.h */,
+				E08CCDA819AAC7E50072DD56 /* Box2dStrike.cpp */,
+				E08CCDA919AAC7E50072DD56 /* Box2dStrike.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2060,6 +2075,9 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E02A687D19AB117B008D72FD /* arrow.png */,
+				E02A687719AAE006008D72FD /* boss.png */,
+				E02A687819AAE006008D72FD /* monster1.png */,
 				E07ADF5E19A45440009273BD /* score_image.png */,
 				E07ADF5F19A45440009273BD /* score.fnt */,
 				E07ADF5C19A44C70009273BD /* closeWebView.png */,
@@ -2163,6 +2181,15 @@
 			name = CppStudy;
 			sourceTree = "<group>";
 		};
+		E08CCDA419AAC6720072DD56 /* box2d */ = {
+			isa = PBXGroup;
+			children = (
+				E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */,
+				E08CCDA619AAC6720072DD56 /* GLES-Render.h */,
+			);
+			path = box2d;
+			sourceTree = "<group>";
+		};
 		E0FC46F819A4A13700ECB013 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -2247,9 +2274,11 @@
 				E016E9AA199B4D76008C490F /* button01.png in Resources */,
 				E07ADF6119A45440009273BD /* score.fnt in Resources */,
 				E020DA79199B5D4D0094A97F /* sunny.png in Resources */,
+				E02A687A19AAE006008D72FD /* monster1.png in Resources */,
 				E016E9F9199B57E7008C490F /* dialogbg.png in Resources */,
 				E07ADF5D19A44C70009273BD /* closeWebView.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
+				E02A687E19AB117B008D72FD /* arrow.png in Resources */,
 				E0BB8BD6199A08D80093F1E7 /* cocos2dx_logo2.png in Resources */,
 				E0C6E523199C8ABF007B256B /* 9patch.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
@@ -2270,6 +2299,7 @@
 				E0BB8BD41999FFEA0093F1E7 /* button02.gif in Resources */,
 				E016E9AB199B4D76008C490F /* button02.png in Resources */,
 				E016E9FC199B57F2008C490F /* BackgroundLayer.ccbi in Resources */,
+				E02A687919AAE006008D72FD /* boss.png in Resources */,
 				E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
@@ -2349,6 +2379,7 @@
 				15A3D9271682F7D5002FB0C5 /* b2RevoluteJoint.cpp in Sources */,
 				15A3D9281682F7D5002FB0C5 /* b2RopeJoint.cpp in Sources */,
 				15C0B56E196D412F007F909D /* UIWidget.cpp in Sources */,
+				E08CCDA719AAC6720072DD56 /* GLES-Render.cpp in Sources */,
 				15A3D9291682F7D5002FB0C5 /* b2WeldJoint.cpp in Sources */,
 				15A3D92A1682F7D5002FB0C5 /* b2WheelJoint.cpp in Sources */,
 				15A3D9391682F7D5002FB0C5 /* b2Rope.cpp in Sources */,
@@ -2421,6 +2452,7 @@
 				15A3DA3C1682F826002FB0C5 /* CCLabelTTFLoader.cpp in Sources */,
 				15C0B572196D412F007F909D /* CocosGUI.cpp in Sources */,
 				E0FC46FB19A4A15300ECB013 /* DelegateStudyParts.cpp in Sources */,
+				E08CCDAA19AAC7E50072DD56 /* Box2dStrike.cpp in Sources */,
 				15A3DA3D1682F826002FB0C5 /* CCLayerColorLoader.cpp in Sources */,
 				15C0B589196D412F007F909D /* LabelAtlasReader.cpp in Sources */,
 				15A3DA3E1682F826002FB0C5 /* CCLayerGradientLoader.cpp in Sources */,

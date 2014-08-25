@@ -9,17 +9,17 @@ using namespace cocos2d;
 const char* AppPlatform::getAppVersion()
 {
     JniMethodInfo t;
-    const char* ret = NULL;
+    std::string ret = "";
     
     if(JniHelper::getStaticMethodInfo(t,CLASS_NAME,"getAppVersionInJava","()Ljava/lang/String;")){
         jstring jstr = (jstring)t.env->CallStaticObjectMethod(t.classID,t.methodID);
         
-        std::string sstr = JniHelper::jstring2string(jstr);
+        ret = JniHelper::jstring2string(jstr);
+        CCLOG("1 %s",ret.c_str());
         t.env->DeleteLocalRef(t.classID);
         t.env->DeleteLocalRef(jstr);
-        CCString * cstr = CCString::create(sstr.c_str());
-        ret = cstr->getCString();
     }
+//    CCLOG("1 %s",ret.c_str());
     
-    return ret;
+    return ret.c_str();
 }

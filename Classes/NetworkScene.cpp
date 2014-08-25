@@ -51,7 +51,6 @@ bool NetworkScene::init()
     reqLabel2->setTag(3);
     this->addChild(reqLabel2);
     
-    //
     CCLabelTTF* postLabel = CCLabelTTF::create("Post用 Label", "arial", 48);
     postLabel->setPosition(ccp(visibleSize.width/2,visibleSize.height/2-postLabel->getContentSize().height*2));
     postLabel->setTag(4);
@@ -71,8 +70,14 @@ void NetworkScene::getCallBack(cocos2d::extension::CCHttpClient *sender, cocos2d
     std::string msg = Json_getString(json, "msg", "");
     int num = Json_getInt(json, "num", 0);
     
-    CCLabelTTF* reqLabel = (CCLabelTTF*)this->getChildByTag(2);
-    reqLabel->setString(msg.data());
+    
+    //CCLabelTTF* reqLabel = (CCLabelTTF*)this->getChildByTag(2);
+    //reqLabel->setString(msg.data());
+    // 改善
+    //(CCLabelTTF*)でキャストした場合はキャストできない場合にえらーになるのでしょうか。
+    CCLabelTTF* reqLabel = dynamic_cast<CCLabelTTF*>(this->getChildByTag(2));
+    reqLabel->setString(reqLabel ? msg.data():"");
+    
     
     CCLabelTTF* reqLabel2 = (CCLabelTTF*)this->getChildByTag(3);
     CCString* numStr = CCString::createWithFormat("%d",num);

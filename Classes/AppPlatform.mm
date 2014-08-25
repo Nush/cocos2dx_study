@@ -8,7 +8,10 @@ const char* AppPlatform::getAppVersion()
     NSString *version = [[NSString alloc] initWithFormat:@"%d",versionInt];
     if(version){
         CCString* ret = CCString::createWithFormat("%s : %s","iOS",[version UTF8String]);
+        // メモリの開放
+        [version release];
         return ret->getCString();
     }
-    return NULL;
+    // 改善
+    return "";
 }

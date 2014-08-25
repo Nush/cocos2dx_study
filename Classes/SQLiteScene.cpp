@@ -200,7 +200,13 @@ void SQLiteScene::regist()
     const char* key = editBoxKey->getText();
     const char* val = editBoxVal->getText();
 
-    if(key != "" && val != ""){
+//    if(key != "" && val != ""){
+//        sqliteSetValueForKey(key, val);
+//        reloadSQLite();
+//    }
+//
+    //改善
+    if(strcmp(key, "") && strcmp(val, "")){
         sqliteSetValueForKey(key, val);
         reloadSQLite();
     }

@@ -5,6 +5,20 @@
 
 class HelloWorld : public cocos2d::CCLayer
 {
+private:
+    // 練習のためenumで
+    enum e_changeScene{
+        BUILDER,
+        PREFERENCE,
+        NETWORK,
+        SQLITE,
+        TWEET,
+        WEBVIEW,
+        CPPSTUDY,
+        DELEGATE,
+        BOX2D
+    };
+    
 public:
     virtual bool init();
     static cocos2d::CCScene* scene();
@@ -14,14 +28,6 @@ public:
     // testBtn押下時のCallback
     void testBtnPushedCallback(CCObject* sender);
     
-    // リファクタ前
-//    void builderSceneCallback(CCObject* sender);
-//    void preSceneCallback(CCObject* sender);
-//    void netSceneCallback(CCObject* sender);
-//    void sqlSceneCallback(CCObject* sender);
-//    void twtSceneCallback(CCObject* sender);
-//    void webSceneCallback(CCObject* sender);
-//    void cppSceneCallback(CCObject* sender);
     
     // リファクタ後
     void sceneChangeCallback(CCObject* sender);
