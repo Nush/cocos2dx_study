@@ -7,6 +7,7 @@
 #include "WebViewScene.h"
 #include "CPPStudyScene.h"
 #include "DelegateStudyScene.h"
+#include "Box2dStrike.h"
 
 USING_NS_CC;
 
@@ -175,6 +176,15 @@ bool HelloWorld::init()
     delBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - delBtnItem->getContentSize().height*7.5));
+    // Box2dScene
+    CCMenuItemLabel* boxBtnItem = CCMenuItemLabel::create(
+                                                          CCLabelTTF::create("Box2dへ", "arial", 48),
+                                                          this,
+                                                          menu_selector(HelloWorld::sceneChangeCallback));
+    boxBtnItem->setTag(109);
+    boxBtnItem->setPosition(ccp(
+                                visibleSize.width/2,
+                                visibleSize.height - boxBtnItem->getContentSize().height*8.5));
     
     // Menu
     CCMenu* menuBtn = CCMenu::create(builderBtnItem,
@@ -185,6 +195,7 @@ bool HelloWorld::init()
                                      webBtnItem,
                                      cppBtnItem,
                                      delBtnItem,
+                                     boxBtnItem,
                                      NULL);
     menuBtn->setPosition(CCPointZero);
     
@@ -243,6 +254,9 @@ void HelloWorld::sceneChangeCallback(cocos2d::CCObject *sender)
             break;
         case 108:
             ts = CCTransitionRotoZoom::create(1.0f, DelegateStudyScene::scene());
+            break;
+        case 109:
+            ts = CCTransitionFadeDown::create(0.5f, Box2dStrike::scene());
         default:
             break;
     }
