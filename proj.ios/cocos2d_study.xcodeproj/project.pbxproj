@@ -286,6 +286,7 @@
 		E07ADF6119A45440009273BD /* score.fnt in Resources */ = {isa = PBXBuildFile; fileRef = E07ADF5F19A45440009273BD /* score.fnt */; };
 		E07ADF6419A46985009273BD /* SuperClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07ADF6219A46985009273BD /* SuperClass.cpp */; };
 		E07ADF6719A4698F009273BD /* SubClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07ADF6519A4698F009273BD /* SubClass.cpp */; };
+		E08CCDA719AAC6720072DD56 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */; };
 		E0BB8BD01999F8A80093F1E7 /* cocos2dx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */; };
 		E0BB8BD31999FFEA0093F1E7 /* button01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD11999FFEA0093F1E7 /* button01.gif */; };
 		E0BB8BD41999FFEA0093F1E7 /* button02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0BB8BD21999FFEA0093F1E7 /* button02.gif */; };
@@ -877,6 +878,8 @@
 		E07ADF6319A46985009273BD /* SuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperClass.h; sourceTree = "<group>"; };
 		E07ADF6519A4698F009273BD /* SubClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubClass.cpp; sourceTree = "<group>"; };
 		E07ADF6619A4698F009273BD /* SubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
+		E08CCDA619AAC6720072DD56 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		E0BB8BCF1999F8A80093F1E7 /* cocos2dx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocos2dx_logo.png; sourceTree = "<group>"; };
 		E0BB8BD11999FFEA0093F1E7 /* button01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button01.gif; sourceTree = "<group>"; };
 		E0BB8BD21999FFEA0093F1E7 /* button02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button02.gif; sourceTree = "<group>"; };
@@ -1417,6 +1420,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E08CCDA419AAC6720072DD56 /* box2d */,
 				E0FC46F819A4A13700ECB013 /* Delegate */,
 				E04B535019A32FBC00B810C5 /* CppStudy */,
 				E0260E7519A18E00007DB4BC /* SQlite */,
@@ -2163,6 +2167,15 @@
 			name = CppStudy;
 			sourceTree = "<group>";
 		};
+		E08CCDA419AAC6720072DD56 /* box2d */ = {
+			isa = PBXGroup;
+			children = (
+				E08CCDA519AAC6720072DD56 /* GLES-Render.cpp */,
+				E08CCDA619AAC6720072DD56 /* GLES-Render.h */,
+			);
+			path = box2d;
+			sourceTree = "<group>";
+		};
 		E0FC46F819A4A13700ECB013 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -2349,6 +2362,7 @@
 				15A3D9271682F7D5002FB0C5 /* b2RevoluteJoint.cpp in Sources */,
 				15A3D9281682F7D5002FB0C5 /* b2RopeJoint.cpp in Sources */,
 				15C0B56E196D412F007F909D /* UIWidget.cpp in Sources */,
+				E08CCDA719AAC6720072DD56 /* GLES-Render.cpp in Sources */,
 				15A3D9291682F7D5002FB0C5 /* b2WeldJoint.cpp in Sources */,
 				15A3D92A1682F7D5002FB0C5 /* b2WheelJoint.cpp in Sources */,
 				15A3D9391682F7D5002FB0C5 /* b2Rope.cpp in Sources */,
