@@ -11,6 +11,9 @@
 
 USING_NS_CC;
 
+#define FONT_SIZE 48
+#define FONT_NAME "arial"
+
 CCScene* HelloWorld::scene()
 {
     // 'scene' is an autorelease object
@@ -65,7 +68,7 @@ bool HelloWorld::init()
     CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
     
     // 文字列の表示
-    CCLabelTTF* label = CCLabelTTF::create("change text", "arial", 32);
+    CCLabelTTF* label = CCLabelTTF::create("change text", FONT_NAME, 32);
     label->setPosition(ccp(label->getContentSize().width/2, visibleSize.height/2));
     label->setTag(0);
     this->addChild(label);
@@ -97,91 +100,91 @@ bool HelloWorld::init()
     
     // CocosBuilderで作成したSceneへ移動
     CCMenuItemLabel* builderBtnItem = CCMenuItemLabel::create(
-                                        CCLabelTTF::create("BuilderSceneへ", "arial", 48),
+                                        CCLabelTTF::create("BuilderSceneへ", FONT_NAME, FONT_SIZE),
                                         this,
                                         menu_selector(HelloWorld::sceneChangeCallback));
     builderBtnItem->setPosition(ccp(
                                     visibleSize.width/2,
                                     visibleSize.height - builderBtnItem->getContentSize().height*0.5));
-    builderBtnItem->setTag(101);
+    builderBtnItem->setTag(BUILDER);
 
     
     // Preferenceへ移動
     CCMenuItemLabel* preBtnItem = CCMenuItemLabel::create(
-                                    CCLabelTTF::create("Preferenceへ", "arial", 48),
+                                    CCLabelTTF::create("Preferenceへ", FONT_NAME, FONT_SIZE),
                                     this,
                                     menu_selector(HelloWorld::sceneChangeCallback));
     preBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - preBtnItem->getContentSize().height*1.5));
-    preBtnItem->setTag(102);
+    preBtnItem->setTag(PREFERENCE);
     
     // Networkへ移動
     CCMenuItemLabel* netBtnItem = CCMenuItemLabel::create(
-                                    CCLabelTTF::create("HttpRequestへ", "arial", 48),
+                                    CCLabelTTF::create("HttpRequestへ", FONT_NAME, FONT_SIZE),
                                     this,
                                     menu_selector(HelloWorld::sceneChangeCallback));
     netBtnItem->setPosition(ccp(
          visibleSize.width/2,
          visibleSize.height - netBtnItem->getContentSize().height*2.5));
-    netBtnItem->setTag(103);
+    netBtnItem->setTag(NETWORK);
     
     // SQLiteへ移動
     CCMenuItemLabel* sqlBtnItem = CCMenuItemLabel::create(
-                                    CCLabelTTF::create("SQLiteへ", "arial", 48),
+                                    CCLabelTTF::create("SQLiteへ", FONT_NAME, FONT_SIZE),
                                     this,
                                     menu_selector(HelloWorld::sceneChangeCallback));
     sqlBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - sqlBtnItem->getContentSize().height*3.5));
-    sqlBtnItem->setTag(104);
+    sqlBtnItem->setTag(SQLITE);
     
     
     // Tweetへ移動
     CCMenuItemLabel* twtBtnItem = CCMenuItemLabel::create(
-                                   CCLabelTTF::create("Twitterへ", "arial", 48),
+                                   CCLabelTTF::create("Twitterへ", FONT_NAME, FONT_SIZE),
                                    this,
                                    menu_selector(HelloWorld::sceneChangeCallback));
-    twtBtnItem->setTag(105);
+    twtBtnItem->setTag(TWEET);
     twtBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - twtBtnItem->getContentSize().height*4.5));
 
     // WebViewへ移動
     CCMenuItemLabel* webBtnItem = CCMenuItemLabel::create(
-                                    CCLabelTTF::create("WebViewへ", "arial", 48),
+                                    CCLabelTTF::create("WebViewへ", FONT_NAME, FONT_SIZE),
                                     this,
                                     menu_selector(HelloWorld::sceneChangeCallback));
-    webBtnItem->setTag(106);
+    webBtnItem->setTag(WEBVIEW);
     webBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - webBtnItem->getContentSize().height*5.5));
     
     // CPPStudyへ移動
     CCMenuItemLabel* cppBtnItem = CCMenuItemLabel::create(
-                                    CCLabelTTF::create("CPPStudyへ", "arial", 48),
+                                    CCLabelTTF::create("CPPStudyへ", FONT_NAME, FONT_SIZE),
                                     this,
                                     menu_selector(HelloWorld::sceneChangeCallback));
-    cppBtnItem->setTag(107);
+    cppBtnItem->setTag(CPPSTUDY);
     cppBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - cppBtnItem->getContentSize().height*6.5));
     
     // DelegateStudyScene
     CCMenuItemLabel* delBtnItem = CCMenuItemLabel::create(
-                                                          CCLabelTTF::create("DelegateStudySceneへ", "arial", 48),
+                                                          CCLabelTTF::create("DelegateStudySceneへ", FONT_NAME, FONT_SIZE),
                                                           this,
                                                           menu_selector(HelloWorld::sceneChangeCallback));
-    delBtnItem->setTag(108);
+    delBtnItem->setTag(DELEGATE);
     delBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - delBtnItem->getContentSize().height*7.5));
     // Box2dScene
     CCMenuItemLabel* boxBtnItem = CCMenuItemLabel::create(
-                                                          CCLabelTTF::create("Box2dへ", "arial", 48),
+                                                          CCLabelTTF::create("Box2dへ", FONT_NAME, FONT_SIZE),
                                                           this,
                                                           menu_selector(HelloWorld::sceneChangeCallback));
-    boxBtnItem->setTag(109);
+    boxBtnItem->setTag(BOX2D);
     boxBtnItem->setPosition(ccp(
                                 visibleSize.width/2,
                                 visibleSize.height - boxBtnItem->getContentSize().height*8.5));
@@ -231,31 +234,31 @@ void HelloWorld::sceneChangeCallback(cocos2d::CCObject *sender)
     
     // タグで判別
     switch (item->getTag()) {
-        case 101:
+        case BUILDER:
             ts = CCTransitionFade::create(2.0f, BuilderScene::scene());
             break;
-        case 102:
+        case PREFERENCE:
             ts = CCTransitionMoveInR::create(2.0f, Preference::scene());
             break;
-        case 103:
+        case NETWORK:
             ts = CCTransitionFlipY::create(0.5f, NetworkScene::scene());
             break;
-        case 104:
+        case SQLITE:
             ts = CCTransitionFlipX::create(0.5f, SQLiteScene::scene());
             break;
-        case 105:
+        case TWEET:
             ts = CCTransitionCrossFade::create(0.5f, TweetScene::scene());
             break;
-        case 106:
+        case WEBVIEW:
             ts = CCTransitionMoveInR::create(0.5f, WebViewScene::scene());
             break;
-        case 107:
+        case CPPSTUDY:
             ts = CCTransitionJumpZoom::create(0.5f, CPPStudyScene::scene());
             break;
-        case 108:
+        case DELEGATE:
             ts = CCTransitionRotoZoom::create(1.0f, DelegateStudyScene::scene());
             break;
-        case 109:
+        case BOX2D:
             ts = CCTransitionFadeDown::create(0.5f, Box2dStrike::scene());
         default:
             break;

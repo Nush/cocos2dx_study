@@ -33,7 +33,6 @@ bool Title::init()
     // レベル3：端末情報の取得
     // iOSはObjective-C、AndroidはJavaのJniを利用して取得
     const char* version = AppPlatform::getAppVersion();
-    CCLOG("%s",version);
     CCLabelTTF* versionLabel = CCLabelTTF::create(version, "arial", 48);
     versionLabel->setPosition(ccp(visibleSize.width-versionLabel->getContentSize().width/2, versionLabel->getContentSize().height/2));
     this->addChild(versionLabel);

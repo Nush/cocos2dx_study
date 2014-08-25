@@ -273,6 +273,7 @@
 		E0260E7C19A18EA7007DB4BC /* SQLiteScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0260E7A19A18EA7007DB4BC /* SQLiteScene.cpp */; };
 		E02A687919AAE006008D72FD /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687719AAE006008D72FD /* boss.png */; };
 		E02A687A19AAE006008D72FD /* monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687819AAE006008D72FD /* monster1.png */; };
+		E02A687E19AB117B008D72FD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E02A687D19AB117B008D72FD /* arrow.png */; };
 		E03522D6199E0F5F00E00B07 /* NetworkScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */; };
 		E04A1B68199B14C200B0C46B /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
 		E04A1B69199B14C200B0C46B /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
@@ -856,6 +857,7 @@
 		E0260E7B19A18EA7007DB4BC /* SQLiteScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteScene.h; sourceTree = "<group>"; };
 		E02A687719AAE006008D72FD /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
 		E02A687819AAE006008D72FD /* monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster1.png; sourceTree = "<group>"; };
+		E02A687D19AB117B008D72FD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		E03522D4199E0F5F00E00B07 /* NetworkScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkScene.cpp; sourceTree = "<group>"; };
 		E03522D5199E0F5F00E00B07 /* NetworkScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkScene.h; sourceTree = "<group>"; };
 		E04B533A19A310D100B810C5 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
@@ -2073,6 +2075,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E02A687D19AB117B008D72FD /* arrow.png */,
 				E02A687719AAE006008D72FD /* boss.png */,
 				E02A687819AAE006008D72FD /* monster1.png */,
 				E07ADF5E19A45440009273BD /* score_image.png */,
@@ -2275,6 +2278,7 @@
 				E016E9F9199B57E7008C490F /* dialogbg.png in Resources */,
 				E07ADF5D19A44C70009273BD /* closeWebView.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
+				E02A687E19AB117B008D72FD /* arrow.png in Resources */,
 				E0BB8BD6199A08D80093F1E7 /* cocos2dx_logo2.png in Resources */,
 				E0C6E523199C8ABF007B256B /* 9patch.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,

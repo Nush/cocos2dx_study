@@ -3,6 +3,11 @@
 USING_NS_CC;
 USING_NS_CC_EXT;
 
+CCBLayer::CCBLayer()
+{
+    m_displayTime = CCLabelTTF::create("", "arial", 48);
+    m_tapText = CCLabelTTF::create("", "arial", 48);
+}
 bool CCBLayer::init()
 {
     this->schedule(schedule_selector(CCBLayer::updateTime));

@@ -23,7 +23,14 @@ public:
     void BeginContact(b2Contact* contact);
     void onEnterTransitionDidFinish();
     
+    CCPoint m_touchPoint;
+    
+    virtual bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+    virtual void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
+    virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+    
 private:
+    b2Body* m_playerBody;
     b2World *_world;
     GLESDebugDraw *_debugDraw;
 };

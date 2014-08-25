@@ -13,6 +13,7 @@ LOCAL_SRC_FILES += $(CPP_FILES:$(LOCAL_PATH)/%=%)
 LOCAL_SRC_FILES += ../../Classes/SQLite/sqlite3.c
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes\
+					$(LOCAL_PATH)/../../Classes/box2d\
 					$(LOCAL_PATH)/../../../external/Box2D
 
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos2dx_static

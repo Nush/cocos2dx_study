@@ -11,6 +11,8 @@ USING_NS_CC_EXT;
  */
 class CCBLayer : public CCLayer, public CCBSelectorResolver,public CCBMemberVariableAssigner
 {
+public:
+    CCBLayer();
 private:
     CCLabelTTF* m_displayTime;
     CCLabelTTF* m_tapText;

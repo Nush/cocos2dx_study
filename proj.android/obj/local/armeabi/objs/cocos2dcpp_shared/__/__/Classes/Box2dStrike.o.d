@@ -246,7 +246,7 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/Box2dStrike.o: \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RevoluteJoint.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RopeJoint.h \
  /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h \
- jni/../../Classes/GLES-Render.h
+ jni/../../Classes/box2d/GLES-Render.h
 
 jni/../../Classes/Box2dStrike.h:
 
@@ -742,4 +742,4 @@ jni/../../Classes/Box2dStrike.h:
 
 /Users/temp/cocos2d-x/cocos2d-x-2.2.5/projects/cocos2d_study/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h:
 
-jni/../../Classes/GLES-Render.h:
+jni/../../Classes/box2d/GLES-Render.h:

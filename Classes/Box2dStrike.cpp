@@ -12,21 +12,11 @@ bool Box2dStrike::init()
         return false;
     }
     
+    this->setTouchEnabled(true);
+    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
+    
     this->initPhysics();
     scheduleUpdate();
-    
-//    b2BodyDef bodyDef;
-//    bodyDef.type = b2_dynamicBody;
-//    bodyDef.position.Set(200/PTM_RATIO, 300/PTM_RATIO);
-//    b2Body *body = _world->CreateBody(&bodyDef);
-//    
-//    b2PolygonShape dynamicBox;
-//    dynamicBox.SetAsBox(50/PTM_RATIO, 50/PTM_RATIO);
-//    
-//    b2FixtureDef fixtureDef;
-//    fixtureDef.shape = &dynamicBox;
-//    fixtureDef.density = 1.0f;
-//    body->CreateFixture(&fixtureDef);
     
     return true;
 }
@@ -63,7 +53,7 @@ void Box2dStrike::initPhysics()
     bodyDef.userData = monster;
     bodyDef.fixedRotation = true;
     bodyDef.linearDamping = 0.5;
-    b2Body* body = _world->CreateBody(&bodyDef);
+    m_playerBody = _world->CreateBody(&bodyDef);
     
     b2CircleShape circle;
     circle.m_radius = 50/PTM_RATIO;
@@ -73,9 +63,7 @@ void Box2dStrike::initPhysics()
     fixtureDef.friction = 0; // 摩擦率
     fixtureDef.restitution = 0.6; // 反発係数
     
-    body->CreateFixture(&fixtureDef);
-    
-    body->ApplyForce(b2Vec2(30000,15000), body->GetWorldCenter());
+    m_playerBody->CreateFixture(&fixtureDef);
     
     // 敵
     CCSprite* boss = CCSprite::create("boss.png");
@@ -214,5 +202,31 @@ void Box2dStrike::BeginContact(b2Contact *contact)
 }
 void Box2dStrike::onEnterTransitionDidFinish()
 {
+    m_playerBody->ApplyForce(b2Vec2(30000,15000), m_playerBody->GetWorldCenter());
+}
+bool Box2dStrike::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
+{
+    CCSprite* arrow = CCSprite::create("arrow.png");
+    arrow->setAnchorPoint(ccp(0.7f,0.5f));
+    m_touchPoint = pTouch->getLocation();
+    arrow->setPosition(((CCSprite*)m_playerBody->GetUserData())->getPosition());
+    arrow->setScaleX(0.0f);
+    this->addChild(arrow,1,1);
+    return true;
+}
+void Box2dStrike::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
+{
+    CCPoint currentPoint = pTouch->getLocation();
     
+    float angle = CC_RADIANS_TO_DEGREES(ccpToAngle(ccpSub(currentPoint,m_touchPoint)));
+    
+    CCSprite* arrow = (CCSprite*)this->getChildByTag(1);
+    arrow->setScaleX(currentPoint.getDistance(m_touchPoint)/150.0f);
+    arrow->setRotation(angle*-1);
+}
+void Box2dStrike::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
+{
+    CCPoint currentPoint = pTouch->getLocation();
+    
+    this->removeChildByTag(1);
 }
